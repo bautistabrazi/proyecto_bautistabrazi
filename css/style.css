@@ -301,6 +301,9 @@ article .section2__block--title{
 .section__copas--list li img{
     border: 1px solid black;
 }
+.section__copas .section__copas--list .intercontinental{
+    margin-right: -10px !important;
+}
 .section__copas--list li img:hover{
     box-shadow: 0px 0px 10px 5px black;
 }
