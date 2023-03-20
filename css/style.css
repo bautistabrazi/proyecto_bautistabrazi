@@ -570,6 +570,8 @@ form div input{
         text-align: left;
         grid-template-columns: auto auto;
         font-size: 25px;
+        margin-left: 0;
+        padding: 0;
     }
     .section__figuras{
         margin-top: 30px;
