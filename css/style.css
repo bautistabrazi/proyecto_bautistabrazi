@@ -469,7 +469,6 @@ form div input{
         font-size: 35px;
         margin: 0 10px;
     }
-    }
     .main .main__title .main__title--text{
         font-size: 25px;
         margin: 0 10px;
@@ -602,6 +601,7 @@ form div input{
     form div select{
         height: 50px;
     }
+}    
 @media (min-width:577px){
     .navbar .navbar__nav .container-fluid{
         display: none;
