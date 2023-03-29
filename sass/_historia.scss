@@ -1,0 +1,78 @@
+/* historia */
+.main2{
+    .title__pag{
+        display: inline;
+        padding: 0px;
+        text-align: center;
+        font-size: 30px;
+        text-shadow: #000000 1px 1px 3px ;
+        h2{
+            background-color: rgba(128, 128, 128, 0.541);
+            box-shadow: -5px 5px 20px 1px black;
+            color: black;
+        }
+    }
+    .main2__section{
+        margin: 20px 50px;
+        padding: 10px 5px;
+        color: black;
+        background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgb(128 128 128 / 78%));
+        box-shadow: -2px 0px 20px 0px black;
+        transition: all 1s;
+        &:hover{
+            box-shadow: -5px 5px 20px 1px black;            
+        }
+        .main2__section--title{
+            display: flex;
+            justify-content: left;
+            margin-left: 50px;
+            font-size: 2em;
+            text-shadow: #000000 1px 1px 3px ;
+            animation-name: efectoText;
+        }
+        .main2__section--text{
+            font-size: 1.5em;
+            text-align: left;
+            display: flex;
+            margin-left: 50px;
+            margin-bottom: 30px;
+            margin-right: 50px;
+        }
+    }
+    .section2{
+            display: flex;
+            .section2__block{
+                padding: 10px 5px;
+                margin: 0px 50px;
+                color: black;
+                background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgb(128 128 128 / 78%));
+                box-shadow: -2px 0px 20px 0px black;
+                transition: all 1s;
+                &:hover{
+                    box-shadow: -5px 5px 20px 1px black;    
+                }
+                .section2__block--title{
+                    font-size: 2em;
+                    margin-left: 50px;
+                    text-shadow: #000000 1px 1px 3px ;
+                }
+                .section2__block--text{
+                    font-size: 1.5em;
+                    text-align: left;
+                    margin-left: 50px;
+                    margin-bottom: 30px;
+                    margin-right: 50px;
+                }
+            }
+            div{
+                margin-left: 50px;
+                padding-bottom: 10px 5px;
+            }
+        }
+        .section2--video{
+            margin-top: 15px;
+            margin-left:50px;
+        }
+}
+
+

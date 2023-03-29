@@ -1,0 +1,104 @@
+/* index */
+.main{
+    .img-fondo{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        box-shadow: -5px 5px 20px 1px black;
+        img{
+            width: 100%;
+        }
+    }
+    .section{
+        background: linear-gradient(49deg, rgba(255, 0, 0, 0.801), rgb(255 0 0 / 89%));
+        box-shadow: -5px 5px 20px 1px black;
+        display: flex;
+        .section__title{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            .section__title--element{
+                margin-bottom: 20px;
+                margin-left: 3rem;
+                font-size: 30px;
+                text-shadow: #000000 1px 1px 3px ;
+                display: inline-block;
+                color: black;
+            }
+            .section__title--text{
+                font-size: 20px;
+                text-align: left;
+                display: block;
+                margin-bottom: 30px;
+                margin-left: 50px;
+                text-shadow: #000000 1px 0px 1px ;
+                color: black;
+            }
+        }
+    }
+    .img-text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 1rem 1rem;
+        margin-top: 25px;
+        margin-right: 25px;
+        img{
+            border: 1px solid black;
+            box-shadow: 0px 0px 20px 6px black;
+        }
+    }
+    .linea-separadora{
+        display: inline-block;
+        margin: 50px 25%;
+        width: 50%;
+        align-items: left;
+    }
+    .section2{
+        background: linear-gradient(49deg, rgba(255, 0, 0, 0.801), rgb(255 0 0 / 89%));
+        box-shadow: -5px 5px 20px 1px black;
+        padding: 20px;
+        margin-bottom: 80px;
+            h2{
+                color: black;
+                text-shadow: #000000 1px 1px 3px ;
+                text-align: center;
+            }
+        .list{
+            .list__items{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-evenly;
+                vertical-align: bottom;
+                padding: 0;
+                    div{
+                        li{
+                            display: flex;
+                            flex-direction: column;
+                            font-size: 1rem;
+                            transition: all 80ms;
+                            &:hover{
+                                text-shadow: #000000 0px 0px 1px;
+                                font-size: 1.1rem;
+                            }
+                            iframe{
+                                width: 250px;
+                                height: 250px;
+                                border: 1px solid black;
+                            }
+                        }
+                    }
+                a{
+                    text-decoration: none;
+                    color: black;
+                    img{
+                        margin-right: 20px;
+                        height: 50px;
+                        width: 50px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
