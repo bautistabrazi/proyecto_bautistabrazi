@@ -308,10 +308,11 @@
 /* titulos y figuras */
 .main__pagetyf .section__copas .title-page .title--titulos {
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
   text-shadow: #000000 1px 1px 1px;
   background-color: rgba(255, 0, 0, 0.801);
   box-shadow: -5px 5px 20px 1px black;
+  color: black;
 }
 .main__pagetyf .section__copas .section__copas--list {
   display: flex;
@@ -334,10 +335,11 @@
 .main__pagetyf .section__copas .title--figuras {
   margin-top: 50px;
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
   background-color: rgba(255, 0, 0, 0.801);
-  text-shadow: #000000 1px 1px 1px;
+  text-shadow: black 1px 1px 1.5px;
   box-shadow: -5px 5px 20px 1px black;
+  color: black;
 }
 .main__pagetyf .section__copas .section__figuras {
   display: flex;
@@ -353,12 +355,13 @@
 .main__pagetyf .section__copas .section__figuras ul li {
   list-style-type: none;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 1em;
   padding: 0px;
   margin-top: 10px;
+  color: black;
 }
 .main__pagetyf .section__copas .section__figuras ul li:hover {
-  font-size: 30px;
+  text-shadow: black 1px 1px 1.5px;
 }
 .main__pagetyf .section__copas .section__figuras ul li img {
   width: 20px;

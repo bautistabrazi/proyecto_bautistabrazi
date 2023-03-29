@@ -4,10 +4,11 @@
         .title-page{
             .title--titulos{
                 text-align: center;
-                font-size: 30px;
+                font-size: 2em;
                 text-shadow: #000000 1px 1px 1px ;
                 background-color: $maincolor;
                 box-shadow: -5px 5px 20px 1px black;
+                color: $txtcolor;
             }
         }
         .section__copas--list{
@@ -31,10 +32,11 @@
         .title--figuras{
             margin-top: 50px;
             text-align: center;
-            font-size: 30px;
+            font-size: 2em;
             background-color: $maincolor;
-            text-shadow: #000000 1px 1px 1px ;
-            box-shadow: -5px 5px 20px 1px black;        
+            text-shadow: $textshadow;
+            box-shadow: -5px 5px 20px 1px black;     
+            color: $txtcolor;   
         }
         .section__figuras{
             display: flex;
@@ -49,11 +51,12 @@
             ul li{
                 list-style-type: none;
                 margin-bottom: 20px;
-                font-size: 25px;
+                font-size: 1em;
                 padding:0px;
                 margin-top: 10px;
+                color: $txtcolor;
                 &:hover{
-                    font-size: 30px;   
+                    text-shadow: $textshadow; 
                 }
                 img{
                     width: 20px;
