@@ -221,10 +221,13 @@
     .formulario{
         .form--title{
             h2{
-                font-size: 35px;    
+                font-size: 2em;    
             }
         }
         form{
+            .col-md-5{
+                margin-top: 10px;
+            }
             div{
                 label{
                     font-size: 30px;    

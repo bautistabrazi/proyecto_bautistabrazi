@@ -20,6 +20,7 @@
                 text-align: center;
                 img{
                     border: 1px solid black; 
+                    transition: all 0.2s;
                     &:hover{
                         box-shadow: 0px 0px 10px 5px black;   
                     }   
@@ -46,7 +47,6 @@
             text-align:justify;
             background-color: $maincolor;
             margin: 25px 0px;
-            text-decoration:underline;
             box-shadow: -5px 5px 20px 1px black;   
             ul li{
                 list-style-type: none;
@@ -55,8 +55,10 @@
                 padding:0px;
                 margin-top: 10px;
                 color: $txtcolor;
+                transition: all 90ms;
                 &:hover{
-                    text-shadow: $textshadow; 
+                    text-shadow: black 0px 1px 0px;
+                    text-decoration: underline
                 }
                 img{
                     width: 20px;

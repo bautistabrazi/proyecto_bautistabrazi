@@ -3,6 +3,7 @@
     .form--title{
         text-align: center;
         background-color: rgba(255, 0, 0, 0.747);
+        color: $txtcolor;
         margin-bottom: 30px;
         text-shadow: $textshadow;
         box-shadow: -5px 5px 20px 1px black;   
@@ -12,6 +13,12 @@
         padding: 30px;
         background-color: rgba(255, 0, 0, 0.747);
         box-shadow: -5px 5px 20px 1px black; 
+        div{
+            label{
+                color: $txtcolor;
+                font-size: 1.5em;
+            }
+        }
         .col-md-4{
             margin-right: 62px;
             input{

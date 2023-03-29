@@ -325,6 +325,7 @@
 }
 .main__pagetyf .section__copas .section__copas--list li img {
   border: 1px solid black;
+  transition: all 0.2s;
 }
 .main__pagetyf .section__copas .section__copas--list li img:hover {
   box-shadow: 0px 0px 10px 5px black;
@@ -349,7 +350,6 @@
   text-align: justify;
   background-color: rgba(255, 0, 0, 0.801);
   margin: 25px 0px;
-  text-decoration: underline;
   box-shadow: -5px 5px 20px 1px black;
 }
 .main__pagetyf .section__copas .section__figuras ul li {
@@ -359,9 +359,11 @@
   padding: 0px;
   margin-top: 10px;
   color: black;
+  transition: all 90ms;
 }
 .main__pagetyf .section__copas .section__figuras ul li:hover {
-  text-shadow: black 1px 1px 1.5px;
+  text-shadow: black 0px 1px 0px;
+  text-decoration: underline;
 }
 .main__pagetyf .section__copas .section__figuras ul li img {
   width: 20px;
@@ -372,6 +374,7 @@
 .formulario .form--title {
   text-align: center;
   background-color: rgba(255, 0, 0, 0.747);
+  color: black;
   margin-bottom: 30px;
   text-shadow: black 1px 1px 1.5px;
   box-shadow: -5px 5px 20px 1px black;
@@ -381,6 +384,10 @@
   padding: 30px;
   background-color: rgba(255, 0, 0, 0.747);
   box-shadow: -5px 5px 20px 1px black;
+}
+.formulario .row div label {
+  color: black;
+  font-size: 1.5em;
 }
 .formulario .row .col-md-4 {
   margin-right: 62px;
@@ -644,7 +651,10 @@
     text-align: center;
   }
   .formulario .form--title h2 {
-    font-size: 35px;
+    font-size: 2em;
+  }
+  .formulario form .col-md-5 {
+    margin-top: 10px;
   }
   .formulario form div label {
     font-size: 30px;
