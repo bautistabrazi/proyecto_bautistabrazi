@@ -118,7 +118,7 @@
 }
 .main .section2 h2 {
   color: black;
-  text-shadow: #000000 1px 1px 3px;
+  text-shadow: black 1px 1px 1.5px;
   text-align: center;
 }
 .main .section2 .list .list__items {
@@ -135,7 +135,7 @@
   transition: all 80ms;
 }
 .main .section2 .list .list__items div li:hover {
-  text-shadow: #000000 0px 0px 1px;
+  text-shadow: black 1px 1px 1.5px;
   font-size: 1.1rem;
 }
 .main .section2 .list .list__items div li iframe {
@@ -163,7 +163,7 @@
   text-shadow: #000000 1px 1px 3px;
 }
 .main2 .title__pag h2 {
-  background-color: rgba(128, 128, 128, 0.541);
+  background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgba(128, 128, 128, 0.78));
   box-shadow: -5px 5px 20px 1px black;
   color: black;
 }
@@ -183,10 +183,11 @@
   justify-content: left;
   margin-left: 50px;
   font-size: 2em;
-  text-shadow: #000000 1px 1px 3px;
+  text-shadow: black 1px 1px 1.5px;
+  animation-name: efectoText;
 }
 .main2 .main2__section .main2__section--text {
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: left;
   display: flex;
   margin-left: 50px;
@@ -210,10 +211,10 @@
 .main2 .section2 .section2__block .section2__block--title {
   font-size: 2em;
   margin-left: 50px;
-  text-shadow: #000000 1px 1px 3px;
+  text-shadow: black 1px 1px 1.5px;
 }
 .main2 .section2 .section2__block .section2__block--text {
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: left;
   margin-left: 50px;
   margin-bottom: 30px;
@@ -309,7 +310,7 @@
   text-align: center;
   font-size: 30px;
   text-shadow: #000000 1px 1px 1px;
-  background-color: rgba(255, 0, 0, 0.747);
+  background-color: rgba(255, 0, 0, 0.801);
   box-shadow: -5px 5px 20px 1px black;
 }
 .main__pagetyf .section__copas .section__copas--list {
@@ -334,7 +335,7 @@
   margin-top: 50px;
   text-align: center;
   font-size: 30px;
-  background-color: rgba(255, 0, 0, 0.747);
+  background-color: rgba(255, 0, 0, 0.801);
   text-shadow: #000000 1px 1px 1px;
   box-shadow: -5px 5px 20px 1px black;
 }
@@ -344,7 +345,7 @@
   margin-top: 20px;
   font-size: 20px;
   text-align: justify;
-  background-color: rgba(255, 0, 0, 0.747);
+  background-color: rgba(255, 0, 0, 0.801);
   margin: 25px 0px;
   text-decoration: underline;
   box-shadow: -5px 5px 20px 1px black;
@@ -369,7 +370,7 @@
   text-align: center;
   background-color: rgba(255, 0, 0, 0.747);
   margin-bottom: 30px;
-  text-shadow: #000000 1px 1px 1px;
+  text-shadow: black 1px 1px 1.5px;
   box-shadow: -5px 5px 20px 1px black;
 }
 .formulario .row {
@@ -648,6 +649,17 @@
   }
   .encabezado .logo--mobile {
     display: none;
+  }
+}
+@keyframes efectoText {
+  0% {
+    background-color: gray;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: green;
   }
 }
 * {

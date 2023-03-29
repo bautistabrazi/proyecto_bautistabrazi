@@ -1,7 +1,7 @@
 /* encabezado */
 .encabezado{
     .header{
-        background-color: rgba(255, 0, 0, 0.801);
+        background-color: $maincolor;
         text-align: center;
         font-weight: bold;
         font-size: 2rem;
@@ -11,8 +11,8 @@
         box-shadow: 1px 1px 10px 1px black;
         .header--title{
             text-decoration: none;
-            color: black;
-            text-decoration-color: black;
+            color: $txtcolor;
+            text-decoration-color: $txtcolor;
             transition: all 0s;
             &:hover{
                 font-size: 2.1rem;
@@ -21,7 +21,7 @@
     }
     .navbar{
         margin-top: 60px;
-        background-color: rgba(255, 0, 0, 0.801);
+        background-color: $maincolor;
         box-shadow: 1px 1px 10px 1px black;
         font-family: 'Fjalla One';  
         .navbar__nav{
@@ -37,11 +37,11 @@
             }
             .navbar__nav--list ul li{
                 font-size: 2rem;
-                color: black;
+                color: $txtcolor;
                 margin-right: 50px;
                 a{
                     font-size: 2rem;
-                    color: black;
+                    color: $txtcolor;
                     margin-top: -10px !important;
                     transition: all 80ms;
                     &:hover{

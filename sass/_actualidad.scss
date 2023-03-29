@@ -16,11 +16,11 @@
             text-align: center;
             font-size: 30px;
             text-shadow: #000000 1px 1px 3px ;
-            color: black;
+            color: $txtcolor;
         }
         .main3__div--text{
             font-size: 20px;
-            color: black;
+            color: $txtcolor;
         }
     }
     .main3__div2{
@@ -43,7 +43,7 @@
             }
         }
         .main3__div2--text{
-            color: black;
+            color: $txtcolor;
             padding: 0px;
             font-size: 20px;
             grid-column: 1/2;

@@ -7,16 +7,16 @@
         font-size: 30px;
         text-shadow: #000000 1px 1px 3px ;
         h2{
-            background-color: rgba(128, 128, 128, 0.541);
+            background: $lineargradient;
             box-shadow: -5px 5px 20px 1px black;
-            color: black;
+            color: $txtcolor;
         }
     }
     .main2__section{
         margin: 20px 50px;
         padding: 10px 5px;
-        color: black;
-        background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgb(128 128 128 / 78%));
+        color: $txtcolor;
+        background: $lineargradient;
         box-shadow: -2px 0px 20px 0px black;
         transition: all 1s;
         &:hover{
@@ -27,7 +27,7 @@
             justify-content: left;
             margin-left: 50px;
             font-size: 2em;
-            text-shadow: #000000 1px 1px 3px ;
+            text-shadow: $textshadow;
             animation-name: efectoText;
         }
         .main2__section--text{
@@ -44,8 +44,8 @@
             .section2__block{
                 padding: 10px 5px;
                 margin: 0px 50px;
-                color: black;
-                background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgb(128 128 128 / 78%));
+                color: $txtcolor;
+                background: $lineargradient;
                 box-shadow: -2px 0px 20px 0px black;
                 transition: all 1s;
                 &:hover{
@@ -54,7 +54,7 @@
                 .section2__block--title{
                     font-size: 2em;
                     margin-left: 50px;
-                    text-shadow: #000000 1px 1px 3px ;
+                    text-shadow: $textshadow;
                 }
                 .section2__block--text{
                     font-size: 1em;

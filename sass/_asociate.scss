@@ -4,7 +4,7 @@
         text-align: center;
         background-color: rgba(255, 0, 0, 0.747);
         margin-bottom: 30px;
-        text-shadow: #000000 1px 1px 1px ;
+        text-shadow: $textshadow;
         box-shadow: -5px 5px 20px 1px black;   
     }
     .row{
