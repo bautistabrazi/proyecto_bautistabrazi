@@ -20,13 +20,13 @@
             .section__title--element{
                 margin-bottom: 20px;
                 margin-left: 3rem;
-                font-size: 30px;
+                font-size: 2em;
                 text-shadow: #000000 1px 1px 3px ;
                 display: inline-block;
                 color: black;
             }
             .section__title--text{
-                font-size: 20px;
+                font-size: 1.25em;
                 text-align: left;
                 display: block;
                 margin-bottom: 30px;
@@ -58,7 +58,7 @@
         background: linear-gradient(49deg, rgba(255, 0, 0, 0.801), rgb(255 0 0 / 89%));
         box-shadow: -5px 5px 20px 1px black;
         padding: 20px;
-        margin-bottom: 80px;
+        margin-bottom: 10vh;
             h2{
                 color: $txtcolor;
                 text-shadow: $textshadow ;
@@ -75,11 +75,11 @@
                         li{
                             display: flex;
                             flex-direction: column;
-                            font-size: 1rem;
+                            font-size: 1em;
                             transition: all 80ms;
                             &:hover{
                                 text-shadow: $textshadow;
-                                font-size: 1.1rem;
+                                font-size: 1.1em;
                             }
                             iframe{
                                 width: 250px;

@@ -1,11 +1,12 @@
 /* variables */ /* encabezado */
 .encabezado .header {
+  font-size: 2em;
+  text-shadow: black 1px 1px 1.5px;
+  color: black;
   background-color: rgba(255, 0, 0, 0.801);
   text-align: center;
   font-weight: bold;
-  font-size: 2rem;
   font-family: "Fjalla One";
-  text-shadow: black 1px 1px 1.5px;
   box-shadow: 1px 1px 10px 1px black;
   margin-top: 10px;
   margin-bottom: 60px;
@@ -31,9 +32,9 @@
   height: 40px;
 }
 .encabezado .navbar .navbar__nav .navbar__nav--list .nav-item-logo img {
-  width: 140px;
-  height: 140px;
-  margin-left: 100px;
+  width: 10vw;
+  height: 100%;
+  margin-left: 7.5vw;
   margin-top: -40px !important;
 }
 .encabezado .navbar .navbar__nav .navbar__nav--list ul li {
@@ -48,7 +49,7 @@
   transition: all 80ms;
 }
 .encabezado .navbar .navbar__nav .navbar__nav--list ul li a:hover {
-  text-shadow: #000000 1px 1px 1.5px;
+  text-shadow: black 1px 1px 1.5px;
 }
 .encabezado .header__subtitle {
   margin-top: 80px;
@@ -78,13 +79,13 @@
 .main .section .section__title .section__title--element {
   margin-bottom: 20px;
   margin-left: 3rem;
-  font-size: 30px;
+  font-size: 2em;
   text-shadow: #000000 1px 1px 3px;
   display: inline-block;
   color: black;
 }
 .main .section .section__title .section__title--text {
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: left;
   display: block;
   margin-bottom: 30px;
@@ -114,7 +115,7 @@
   background: linear-gradient(49deg, rgba(255, 0, 0, 0.801), rgba(255, 0, 0, 0.89));
   box-shadow: -5px 5px 20px 1px black;
   padding: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 10vh;
 }
 .main .section2 h2 {
   color: black;
@@ -131,12 +132,12 @@
 .main .section2 .list .list__items div li {
   display: flex;
   flex-direction: column;
-  font-size: 1rem;
+  font-size: 1em;
   transition: all 80ms;
 }
 .main .section2 .list .list__items div li:hover {
   text-shadow: black 1px 1px 1.5px;
-  font-size: 1.1rem;
+  font-size: 1.1em;
 }
 .main .section2 .list .list__items div li iframe {
   width: 250px;
@@ -156,19 +157,19 @@
 
 /* historia */
 .main2 .title__pag {
+  font-size: 2em;
+  text-shadow: black 1px 1px 1.5px;
+  color: black;
   display: inline;
   padding: 0px;
   text-align: center;
-  font-size: 30px;
-  text-shadow: #000000 1px 1px 3px;
+  box-shadow: -5px 5px 20px 1px black;
 }
 .main2 .title__pag h2 {
   background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgba(128, 128, 128, 0.78));
-  box-shadow: -5px 5px 20px 1px black;
-  color: black;
 }
 .main2 .main2__section {
-  margin: 20px 50px;
+  margin: 5vh 3.8vw;
   padding: 10px 5px;
   color: black;
   background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgba(128, 128, 128, 0.78));
@@ -176,19 +177,20 @@
   transition: all 1s;
 }
 .main2 .main2__section:hover {
-  box-shadow: -5px 5px 20px 1px black;
+  box-shadow: -5px 5px 20px 6px black;
 }
 .main2 .main2__section .main2__section--title {
   font-size: 2em;
   text-shadow: black 1px 1px 1.5px;
+  color: black;
   display: flex;
   justify-content: left;
   margin-left: 50px;
-  animation-name: efectoText;
 }
 .main2 .main2__section .main2__section--text {
   font-size: 1em;
-  text-shadow: black 1px 1px 1.5px;
+  text-shadow: #000 0px 0px 2px;
+  color: black;
   text-align: left;
   display: flex;
   margin-left: 50px;
@@ -200,23 +202,25 @@
 }
 .main2 .section2 .section2__block {
   padding: 10px 5px;
-  margin: 0px 50px;
+  margin: 0vh 3.8vw;
   color: black;
   background: linear-gradient(45deg, rgba(128, 128, 128, 0.541), rgba(128, 128, 128, 0.78));
   box-shadow: -2px 0px 20px 0px black;
   transition: all 1s;
 }
 .main2 .section2 .section2__block:hover {
-  box-shadow: -5px 5px 20px 1px black;
+  box-shadow: -5px 5px 20px 6px black;
 }
 .main2 .section2 .section2__block .section2__block--title {
   font-size: 2em;
   text-shadow: black 1px 1px 1.5px;
+  color: black;
   margin-left: 50px;
 }
 .main2 .section2 .section2__block .section2__block--text {
   font-size: 1em;
-  text-shadow: black 1px 1px 1.5px;
+  text-shadow: #000 0px 0px 2px;
+  color: black;
   text-align: left;
   margin-left: 50px;
   margin-bottom: 30px;
@@ -246,12 +250,14 @@
 }
 .main3 .main3__div .main3__div--title {
   text-align: center;
-  font-size: 30px;
-  text-shadow: #000000 1px 1px 3px;
+  font-size: 2em;
+  text-shadow: black 1px 1px 1.5px;
+  color: black;
   color: black;
 }
 .main3 .main3__div .main3__div--text {
-  font-size: 20px;
+  font-size: 1em;
+  text-shadow: #000 0px 0px 2px;
   color: black;
 }
 .main3 .main3__div2 {
@@ -266,18 +272,19 @@
 }
 .main3 .main3__div2 .main3__div2--title {
   grid-column: 1/span 3;
-  font-size: 30px;
   text-align: center;
-  text-shadow: #000000 1px 1px 3px;
+  font-size: 2em;
+  text-shadow: black 1px 1px 1.5px;
+  color: black;
 }
 .main3 .main3__div2 .main3__div2--title h2 {
   margin: 10px 0;
-  color: black;
 }
 .main3 .main3__div2 .main3__div2--text {
+  font-size: 1em;
+  text-shadow: #000 0px 0px 2px;
   color: black;
   padding: 0px;
-  font-size: 20px;
   grid-column: 1/2;
   grid-row: 2/3;
   margin-left: 10px;
@@ -302,9 +309,9 @@
 .main3 .imagen2 .image-2 {
   height: 40%;
   width: 100%;
+  margin-top: 40px;
   border: 2px solid black;
   box-shadow: 4px -5px 20px 1px black;
-  margin-top: 40px;
 }
 
 /* titulos y figuras */
@@ -313,13 +320,13 @@
   font-size: 2em;
   text-shadow: #000000 1px 1px 1px;
   background-color: rgba(255, 0, 0, 0.801);
-  box-shadow: -5px 5px 20px 1px black;
+  box-shadow: -2px 5px 20px 1px black;
   color: black;
 }
 .main__pagetyf .section__copas .section__copas--list {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 1vh;
 }
 .main__pagetyf .section__copas .section__copas--list li {
   list-style-type: none;
@@ -333,10 +340,10 @@
   box-shadow: 0px 0px 10px 5px black;
 }
 .main__pagetyf .section__copas .section__copas--list .intercontinental {
-  margin-right: -10px !important;
+  margin-right: -2vw !important;
 }
 .main__pagetyf .section__copas .title--figuras {
-  margin-top: 50px;
+  margin-top: 5vh;
   text-align: center;
   font-size: 2em;
   background-color: rgba(255, 0, 0, 0.801);
@@ -347,19 +354,18 @@
 .main__pagetyf .section__copas .section__figuras {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 2vh;
+  font-size: 1.5em;
   text-align: justify;
   background-color: rgba(255, 0, 0, 0.801);
-  margin: 25px 0px;
-  box-shadow: -5px 5px 20px 1px black;
+  margin: 5vh 0vw;
+  box-shadow: -2px 5px 15px 1px black;
 }
 .main__pagetyf .section__copas .section__figuras ul li {
   list-style-type: none;
-  margin-bottom: 20px;
   font-size: 1em;
   padding: 0px;
-  margin-top: 10px;
+  margin: 2vh 0vw;
   color: black;
   transition: all 90ms;
 }
@@ -368,8 +374,8 @@
   text-decoration: underline;
 }
 .main__pagetyf .section__copas .section__figuras ul li img {
-  width: 20px;
-  height: 20px;
+  width: 2vw;
+  height: 4vh;
 }
 
 /* asociate */
@@ -377,7 +383,7 @@
   text-align: center;
   background-color: rgba(255, 0, 0, 0.747);
   color: black;
-  margin-bottom: 30px;
+  margin: 5vh 0vw;
   text-shadow: black 1px 1px 1.5px;
   box-shadow: -5px 5px 20px 1px black;
 }
@@ -385,7 +391,7 @@
   margin: 0;
   padding: 30px;
   background-color: rgba(255, 0, 0, 0.747);
-  box-shadow: -5px 5px 20px 1px black;
+  box-shadow: -3px 5px 20px 1px black;
 }
 .formulario .row div label {
   color: black;
@@ -427,7 +433,7 @@
   margin-top: 12px;
 }
 .formulario .row .cold-md-3-date {
-  margin: 20px 0px;
+  margin: 3vh 0vw;
 }
 .formulario .row .cold-md-3-date input {
   margin-top: 10px;
@@ -437,7 +443,7 @@
   margin-right: 40px;
 }
 .formulario .row .form-check {
-  margin: 10px 0px;
+  margin: 3vh 0vw;
 }
 
 /* footer */
@@ -451,8 +457,8 @@
   border: 1px solid gray;
 }
 .footer .footer__nav .footer__nav--list li a img {
-  width: 2.5em;
-  height: 2.5em;
+  width: 3vw;
+  height: 6vh;
   margin: 5px 0px;
   transition: all 80ms;
 }
@@ -467,8 +473,6 @@
     display: none;
   }
   .encabezado .navbar {
-    position: fixed;
-    z-index: 1;
     top: 0;
     width: 100%;
   }
@@ -491,11 +495,11 @@
   .encabezado .logo {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
   }
   .encabezado .logo .logo--mobile {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    height: 18vh;
     margin: 15px 0;
   }
   .encabezado .header__subtitle {
@@ -513,15 +517,12 @@
     display: flex;
     flex-direction: column;
   }
-  .main .section__title {
-    font-size: 25px;
-  }
   .main .section__title .section__title--element h2 {
-    font-size: 35px;
+    font-size: 2em;
     margin: 0 10px;
   }
   .main .section__title .section__title--text {
-    font-size: 25px;
+    font-size: 1em;
     margin: 0 10px;
   }
   .main .img-text {
@@ -530,8 +531,8 @@
   .main .img-text img {
     display: flex;
     padding: 0px 0px;
-    margin-bottom: 10px;
-    margin-left: 25px;
+    margin-bottom: 1vh;
+    margin-left: 10vw;
     width: 300px;
   }
   .main .section2 .list .list__items {
@@ -682,17 +683,6 @@
   }
   .encabezado .logo--mobile {
     display: none;
-  }
-}
-@keyframes efectoText {
-  0% {
-    background-color: gray;
-  }
-  50% {
-    background-color: red;
-  }
-  100% {
-    background-color: green;
   }
 }
 * {

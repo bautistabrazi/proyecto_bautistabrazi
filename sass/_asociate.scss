@@ -4,7 +4,7 @@
         text-align: center;
         background-color: rgba(255, 0, 0, 0.747);
         color: $txtcolor;
-        margin-bottom: 30px;
+        margin: 5vh 0vw;
         text-shadow: $textshadow;
         box-shadow: -5px 5px 20px 1px black;   
     }
@@ -12,7 +12,7 @@
         margin: 0;  
         padding: 30px;
         background-color: rgba(255, 0, 0, 0.747);
-        box-shadow: -5px 5px 20px 1px black; 
+        box-shadow: -3px 5px 20px 1px black; 
         div{
             label{
                 color: $txtcolor;
@@ -57,7 +57,7 @@
             margin-top: 12px;    
         }
         .cold-md-3-date{
-            margin: 20px 0px;
+            margin: 3vh 0vw;
             input{
                 margin-top: 10px; 
                 width: 100px;  
@@ -67,7 +67,7 @@
             }
         }
         .form-check{
-            margin: 10px 0px;         
+            margin: 3vh 0vw;        
         }
     }
 }

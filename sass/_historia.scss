@@ -1,33 +1,30 @@
 /* historia */
 .main2{
     .title__pag{
+        @include title;
         display: inline;
         padding: 0px;
         text-align: center;
-        font-size: 30px;
-        text-shadow: #000000 1px 1px 3px ;
+        box-shadow: -5px 5px 20px 1px black;
         h2{
             background: $lineargradient;
-            box-shadow: -5px 5px 20px 1px black;
-            color: $txtcolor;
         }
     }
     .main2__section{
-        margin: 20px 50px;
+        margin: 5vh 3.8vw;
         padding: 10px 5px;
         color: $txtcolor;
         background: $lineargradient;
         box-shadow: -2px 0px 20px 0px black;
         transition: all 1s;
         &:hover{
-            box-shadow: -5px 5px 20px 1px black;            
+            box-shadow: -5px 5px 20px 6px black;          
         }
         .main2__section--title{
             @include title;
             display: flex;
             justify-content: left;
             margin-left: 50px;
-            animation-name: efectoText;
         }
         .main2__section--text{
             @include text;
@@ -42,13 +39,13 @@
             display: flex;
             .section2__block{
                 padding: 10px 5px;
-                margin: 0px 50px;
+                margin: 0vh 3.8vw;
                 color: $txtcolor;
                 background: $lineargradient;
                 box-shadow: -2px 0px 20px 0px black;
                 transition: all 1s;
                 &:hover{
-                    box-shadow: -5px 5px 20px 1px black;    
+                    box-shadow: -5px 5px 20px 6px black;
                 }
                 .section2__block--title{
                     @include title;
