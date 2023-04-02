@@ -23,15 +23,14 @@
             box-shadow: -5px 5px 20px 1px black;            
         }
         .main2__section--title{
+            @include title;
             display: flex;
             justify-content: left;
             margin-left: 50px;
-            font-size: 2em;
-            text-shadow: $textshadow;
             animation-name: efectoText;
         }
         .main2__section--text{
-            font-size: 1em;
+            @include text;
             text-align: left;
             display: flex;
             margin-left: 50px;
@@ -52,12 +51,11 @@
                     box-shadow: -5px 5px 20px 1px black;    
                 }
                 .section2__block--title{
-                    font-size: 2em;
+                    @include title;
                     margin-left: 50px;
-                    text-shadow: $textshadow;
                 }
                 .section2__block--text{
-                    font-size: 1em;
+                    @include text;
                     text-align: left;
                     margin-left: 50px;
                     margin-bottom: 30px;

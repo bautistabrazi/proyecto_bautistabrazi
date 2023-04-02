@@ -179,15 +179,16 @@
   box-shadow: -5px 5px 20px 1px black;
 }
 .main2 .main2__section .main2__section--title {
+  font-size: 2em;
+  text-shadow: black 1px 1px 1.5px;
   display: flex;
   justify-content: left;
   margin-left: 50px;
-  font-size: 2em;
-  text-shadow: black 1px 1px 1.5px;
   animation-name: efectoText;
 }
 .main2 .main2__section .main2__section--text {
   font-size: 1em;
+  text-shadow: black 1px 1px 1.5px;
   text-align: left;
   display: flex;
   margin-left: 50px;
@@ -210,11 +211,12 @@
 }
 .main2 .section2 .section2__block .section2__block--title {
   font-size: 2em;
-  margin-left: 50px;
   text-shadow: black 1px 1px 1.5px;
+  margin-left: 50px;
 }
 .main2 .section2 .section2__block .section2__block--text {
   font-size: 1em;
+  text-shadow: black 1px 1px 1.5px;
   text-align: left;
   margin-left: 50px;
   margin-bottom: 30px;

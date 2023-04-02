@@ -1,0 +1,10 @@
+@mixin text {
+    font-size: 1em;
+    text-shadow: $textshadow-text;
+    color: $txtcolor;
+}
+@mixin title {
+    font-size: 2em;
+    text-shadow: $textshadow;
+    color: $txtcolor;
+}
