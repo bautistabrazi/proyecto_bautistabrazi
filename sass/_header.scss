@@ -20,39 +20,43 @@
         }
     }
     .navbar{
-        background-color: $maincolor;
-        box-shadow: 1px 1px 10px 1px black;
-        font-family: 'Fjalla One';  
         .navbar__nav{
             width: 100%;
-            display: flex;
-            justify-content: space-evenly;
-            height: 40px;
+            height: 100%;
             .navbar__nav--list{
-                .nav-item-logo{
-                    img{
-                        width: 10vw;
-                        height: 100%;
-                        margin-left: 7.5vw;
-                        margin-top: -40px !important;
+                background-color: $maincolor;
+                height: 70px;
+                box-shadow: 1px 1px 10px 1px black;
+                font-family: 'Fjalla One';  
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0px 10vw;
+                    li{
+                        width: 140px;
+                        font-size: 2em;
+                        a{
+                            color: black;
+                            text-decoration: none;
+                            transition: all 80ms;
+                            &:hover{
+                                text-shadow: $textshadow;
+                            }
+                        }
+                    }
+                    .nav-item-tit{
+                        font-size: 1.5em;
+                        margin-top: -8px !important;
+                    }
+                    .nav-item-logo{
+                        img{
+                            margin-top: -35px;
+                            width: 150px;
+                            height: 150px;
+                        }
                     }
                 }
             }
-            .navbar__nav--list ul li{
-                font-size: 2rem;
-                color: $txtcolor;
-                margin-right: 50px;
-                a{
-                    font-size: 2rem;
-                    color: $txtcolor;
-                    margin-top: -10px !important;
-                    transition: all 80ms;
-                    &:hover{
-                        text-shadow: $textshadow;
-                    }
-                }
-            }
-    
         }
     }
     .header__subtitle{
