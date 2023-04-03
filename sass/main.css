@@ -482,6 +482,7 @@
   .encabezado .navbar {
     top: 0;
     width: 100%;
+    background-color: rgba(255, 0, 0, 0.801);
   }
   .encabezado .navbar .navbar__nav--list {
     display: none;
