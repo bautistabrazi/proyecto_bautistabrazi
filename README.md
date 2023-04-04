@@ -1,0 +1,1 @@
+Este proyecto tiene la finalidad de comunicar a las personas interesadas acerca de la cultura del Club Atlético Independiente, ya sea la historia, su actualidad, sus titulos y figuras o la opción de convertirse en un nuevo socio. Puedes navegar entre las opciones del menú de navegación para chequear esta información. El autor del proyecto es Brazi Bautista.
