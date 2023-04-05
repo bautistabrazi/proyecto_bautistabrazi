@@ -50,20 +50,22 @@
             background-color: $maincolor;
             margin: 5vh 0vw;
             box-shadow: -2px 5px 15px 1px black;   
-            ul li{
-                list-style-type: none;
-                font-size: 1em;
-                padding: 0px;
-                margin: 2vh 0vw;
-                color: $txtcolor;
-                transition: all 90ms;
-                &:hover{
-                    text-shadow: black 0px 1px 0px;
-                    text-decoration: underline
-                }
-                img{
-                    width: 2vw;
-                    height: 4vh;   
+            ul{
+                li{
+                    list-style-type: none;
+                    font-size: 1em;
+                    padding: 0px;
+                    margin: 2vh 0vw;
+                    color: $txtcolor;
+                    transition: all 90ms;
+                    &:hover{
+                        text-shadow: black 0px 1px 0px;
+                        text-decoration: underline
+                    }
+                    img{
+                        width: 30px;
+                        height: 30px; 
+                    }
                 }
             }
         }
