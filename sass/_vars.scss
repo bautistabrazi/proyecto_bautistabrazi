@@ -8,9 +8,22 @@ $textshadow: black 1px 1px 1.5px;
 $textshadow-text: #000 0px 0px 2px;
 
 
+@mixin text {
+    font-size: 1em;
+    text-shadow: $textshadow-text;
+    color: $txtcolor;
+}
+@mixin title {
+    font-size: 2em;
+    text-shadow: $textshadow;
+    color: $txtcolor;
+}
+@mixin image{
+    border: 2px solid black;
+    box-shadow: 4px -5px 20px 1px black;
+}
 
 
-
-$mobile: 576px;
+$mobile: 478px;
 $tablet: 768px;
 $desktop: 992px;
