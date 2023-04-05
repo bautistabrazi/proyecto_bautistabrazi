@@ -17,8 +17,7 @@
             margin-top: 1vh;
             align-items: center;
             li{
-                display: flex;
-                flex-direction: column;
+                @include flex-c;
                 list-style-type: none;
                 text-align: center;
                 img{

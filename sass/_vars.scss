@@ -22,7 +22,10 @@ $textshadow-text: #000 0px 0px 2px;
     border: 2px solid black;
     box-shadow: 4px -5px 20px 1px black;
 }
-
+@mixin flex-c{
+    display: flex;
+    flex-direction: column;
+}
 
 $mobile: 480px;
 $tablet: 768px;
