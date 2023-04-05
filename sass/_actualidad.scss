@@ -2,8 +2,7 @@
 
 .main3{
     .main3__div{
-        display: flex;
-        flex-direction: column;
+        @include flex-c;
         background-color: rgba(128, 128, 128, 0.541);
         margin: 0 10px;
         padding: 10px;

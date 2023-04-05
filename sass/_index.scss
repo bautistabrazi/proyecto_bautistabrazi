@@ -15,8 +15,7 @@
         display: flex;
         .section__title{
             margin-top: 30px;
-            display: flex;
-            flex-direction: column;
+            @include flex-c;
             .section__title--element{
                 margin-bottom: 20px;
                 margin-left: 3rem;
@@ -73,8 +72,7 @@
                 padding: 0;
                     div{
                         li{
-                            display: flex;
-                            flex-direction: column;
+                            @include flex-c;
                             font-size: 1em;
                             transition: all 80ms;
                             &:hover{
