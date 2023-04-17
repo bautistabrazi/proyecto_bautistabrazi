@@ -37,9 +37,10 @@
     }
     .section2{
             display: flex;
+            flex-wrap: wrap;
             .section2__block{
                 padding: 10px 5px;
-                margin: 0vh 3.8vw;
+                margin: 5vh 3.8vw;
                 color: $txtcolor;
                 background: $lineargradient;
                 box-shadow: -2px 0px 20px 0px black;
@@ -59,15 +60,17 @@
                     margin-right: 50px;
                 }
             }
-            div{
-                margin-left: 50px;
-                padding-bottom: 10px 5px;
-            }
         }
         .section2--video{
-            margin-top: 15px;
-            margin-left:50px;
-        }
-}
+            margin: 5vh 5vw;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+                iframe{
+                display: flex;
+                justify-content: center;
+                }
+            }
+    }
 
 

@@ -43,6 +43,7 @@
         }
         .section__figuras{
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-evenly;
             margin-top: 2vh;
             font-size: 1.5em;

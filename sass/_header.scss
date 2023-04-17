@@ -30,7 +30,8 @@
                 ul{
                     display: flex;
                     justify-content: space-between;
-                    margin: 0px 10vw;
+                    flex-wrap: wrap;
+                    width: 100%;
                     li{
                         width: 140px;
                         font-size: 2em;

@@ -70,6 +70,7 @@
                 justify-content: space-evenly;
                 vertical-align: bottom;
                 padding: 0;
+                flex-wrap: wrap;
                     div{
                         li{
                             @include flex-c;
